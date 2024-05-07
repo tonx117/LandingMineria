@@ -1,5 +1,4 @@
 import "./App.css";
-import "../public/css/borde.css";
 import { Navbar } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
 import "../public/css/img.css";
@@ -28,7 +27,6 @@ function App() {
       <MasDObjetivos />
       <MuertesRol />
       <RolMasJugado />
-      <img className="SEXO" src="./img/LOLLOGO.png" alt="" />
       <br />
       <Footer />
     </>

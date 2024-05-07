@@ -9,7 +9,7 @@ export const MasDObjetivos = () => {
 
   return (
     <div className="SECCION">
-      <section>
+      <section id="masdobjetivos">
         <h2>Mas daño por objetivos</h2>
         <div className="DivSeccion">
           <div className="DivBotones">

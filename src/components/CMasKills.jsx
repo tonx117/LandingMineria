@@ -10,7 +10,7 @@ export const CMasKills = () => {
 
   return (
     <div className="SECCION">
-      <section>
+      <section id="cmaskills">
         <h2>Campeon con mas kills</h2>
         <div className="DivSeccion">
           <div className="DivBotones">

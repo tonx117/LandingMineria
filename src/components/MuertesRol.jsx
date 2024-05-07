@@ -9,7 +9,7 @@ export const MuertesRol = () => {
 
   return (
     <div className="SECCION">
-      <section>
+      <section id="muertesrol">
         <h2>Mas muertes por rol</h2>
         <div className="DivSeccion">
           <div className="DivBotones">

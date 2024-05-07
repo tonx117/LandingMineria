@@ -10,7 +10,7 @@ export const CMasJugado = () => {
 
   return (
     <div className="SECCION">
-      <section>
+      <section id="cmasjugado">
         <h2>Campeon mas jugado por region</h2>
         <div className="DivSeccion">
           <div className="DivBotones">

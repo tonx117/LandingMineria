@@ -8,6 +8,8 @@ import { Flash } from "./components/Flash.jsx";
 import { MasDObjetivos } from "./components/MasDObjetivos.jsx";
 import { RolMasJugado } from "./components/RolMasJugado.jsx";
 import { MuertesRol } from "./components/MuertesRol.jsx";
+import { CMasVictorias } from "./components/CMasVictorias.jsx";
+import { CMasDerrotas } from "./components/CMasDerrrotas.jsx";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <MasDObjetivos />
       <MuertesRol />
       <RolMasJugado />
+      <CMasVictorias />
+      <CMasDerrotas />
       <br />
       <Footer />
     </>

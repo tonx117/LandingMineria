@@ -2,6 +2,9 @@
   width: 300px; /* Ancho del botón */
   height: 50px; /* Alto del botón */
   margin-top: 20px; /* Espacio superior de 20px */
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px rgb(102, 84, 1); /* Borde del texto */
   background-color: rgb(208, 168, 92); /* Color de fondo del botón */
   color: white; /* Color del texto */
   border: none; /* Sin bordes */
@@ -17,7 +20,6 @@
     0 calc(100% - 20px),
     0 0px
   ); /* Recorta los ángulos superior derecho e inferior izquierdo */
-  transition: clip-path 0.5s ease;
 }
 
 .boton:hover {

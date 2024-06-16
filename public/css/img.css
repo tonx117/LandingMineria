@@ -3,8 +3,7 @@
 }
 
 .VIVSBLUE {
-  margin: 1rem;
-  filter: blur(2px);
+  width: 100%;
   position: relative;
   z-index: 1;
 }
@@ -35,20 +34,17 @@
 }
 
 .Kaedetosuzu {
-  width: 350px;
-  height: 350px;
-  margin-top: 20px;
+  width: 400px;
+  height: 450px;
+  margin-top: 90px;
   margin-bottom: 10px;
-  border: 2px solid var(--color-border);
-  border-radius: 50%;
-  overflow: hidden;
+  box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.6);
 }
 
-.Kaedetosuzu > img {
+.promo {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: -250px;
+  object-fit: fill;
 }
 
 .Jinx {
@@ -183,11 +179,200 @@ section {
   flex-direction: row;
 }
 
+.DivSeccionNosotros {
+  display: flex;
+  flex-direction: row;
+}
+#cmaskills {
+  background-image: url("../img/Panes.jpg");
+  background-size: cover;
+}
+
+#flash {
+  background-image: url(../img/sucursal.png);
+  background-size: cover;
+}
+
+.Direccion {
+  height: 300px;
+  width: 400px;
+}
+.Direccion p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 45px;
+  font-size: 19px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: 800;
+}
+.iconos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  margin-left: 30px;
+  width: 35px;
+}
+.DivSeccionSucursales {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffc60c;
+  border-radius: 15px;
+  transform: translate(550px);
+}
+
+.h2sucursales {
+  transform: translate(550px);
+  background-color: rgb(247, 242, 202);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
 .DivBotones {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-right: 100px;
+}
+
+.Form {
+  background-color: #ffc60c;
+  border-radius: 10px;
+  margin-left: 100px;
+  width: 400px;
+  padding: 30px;
+}
+
+.inputform {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputtext {
+  height: 30px;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.inputtextmg {
+  height: 150px;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.buttonenviar {
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(29, 29, 29);
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 115px;
+}
+
+.labelform {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.DivPromo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  width: 70%;
+}
+.DivSeccionPromo {
+  display: flex;
+  flex-direction: row;
+}
+
+.DivSeccioncontacto {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.DivSeccionNosotros {
+  display: flex;
+  flex-direction: row;
+}
+
+.DivSeccionNosotros h3 {
+  border-top: none;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.DivSeccionNosotros p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.qsyrh {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.qs {
+  width: 100%;
+  text-align: left;
+}
+
+.rh {
+  width: 100%;
+  text-align: left;
+}
+
+.nvynmyp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 10px;
+
+  margin-right: 10px;
+}
+
+.nosotrosh2 {
+  margin-top: 80px;
+}
+
+.nmyp {
+  width: 100%;
+  text-align: left;
+}
+
+.valores {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+.valores li {
+  text-align: center;
+  list-style: none;
+}
+
+.contactoimg {
+  margin-top: 75px;
+  border-radius: 10px;
 }
 
 p {
@@ -196,9 +381,18 @@ p {
 }
 
 h2 {
-  border-top: 2px solid var(--color-border);
   padding-top: 10px;
-  font-size: 50px;
+  font-size: 60px;
+  color: #ffc60c;
+  -webkit-text-stroke: 2px rgb(65, 45, 0);
+}
+
+.fondoh2 {
+  background-color: rgb(237, 233, 226);
+  border-radius: 60px;
+  padding: 10px;
+  color: #3a2720;
+  font-weight: 10;
 }
 h3 {
   border-top: 2px solid var(--color-border);

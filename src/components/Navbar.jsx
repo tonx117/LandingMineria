@@ -15,7 +15,7 @@ export const Navbar = () => {
     <nav>
       <div className="wrapper">
         <div className="logo">
-          <a href="#">League Of Graphs</a>
+          <a href="#">Chiperia Don Mauricio</a>
         </div>
         <input type="radio" name="slider" id="menu-btn" />
         <input type="radio" name="slider" id="close-btn" />
@@ -23,30 +23,21 @@ export const Navbar = () => {
           <label htmlFor="close-btn" className="btn close-btn">
             <i className="fas fa-times"></i>
           </label>
-          <p className="pseccion">Secciones</p>
           <li>
-            <a onClick={() => scrollToSection("cmasjugado")}>1ra</a>
+            <a onClick={() => scrollToSection("masdobjetivos")}>Promociones</a>
           </li>
           <li>
-            <a onClick={() => scrollToSection("cmaskills")}>2da</a>
+            <a onClick={() => scrollToSection("cmaskills")}>Productos</a>
           </li>
           <li>
-            <a onClick={() => scrollToSection("flash")}>3ra</a>
+            <a onClick={() => scrollToSection("cmasjugado")}>Nosotros</a>
           </li>
           <li>
-            <a onClick={() => scrollToSection("masdobjetivos")}>4ta</a>
+            <a onClick={() => scrollToSection("flash")}>Sucursales</a>
           </li>
+
           <li>
-            <a onClick={() => scrollToSection("muertesrol")}>5ta</a>
-          </li>
-          <li>
-            <a onClick={() => scrollToSection("rolmasjugado")}>6ta</a>
-          </li>
-          <li>
-            <a onClick={() => scrollToSection("cmasvictorias")}>7ma</a>
-          </li>
-          <li>
-            <a onClick={() => scrollToSection("cmasderrotas")}>8va</a>
+            <a onClick={() => scrollToSection("muertesrol")}>Contacto</a>
           </li>
         </ul>
         <label htmlFor="menu-btn" className="btn menu-btn">

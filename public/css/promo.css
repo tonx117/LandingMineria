@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.h2promo {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-top: none;
+}
+.h1promo {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.DivPromo p {
+  font-size: 19px;
+  font-weight: 550;
+}
+.highlighth1 {
+  color: #ffc400;
+  font-weight: bold;
+  -webkit-text-stroke: 2px rgb(65, 45, 0);
+}
+.highlight {
+  color: #ff3c00;
+  font-weight: bold;
+  font-size: 25px;
+}
+.promo .offer {
+  background: #ffffff;
+  border: #e8491d 1px solid;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.buttonpromo {
+  transform: translate(230%, 50%);
+  background-color: #ffc400;
+  color: white;
+
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 20px;
+}

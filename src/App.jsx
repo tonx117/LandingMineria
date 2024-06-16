@@ -2,14 +2,12 @@ import "./App.css";
 import { Navbar } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
 import "../public/css/img.css";
-import { CMasJugado } from "./components/CMasJugado.jsx";
-import { CMasKills } from "./components/CMasKills.jsx";
-import { Flash } from "./components/Flash.jsx";
-import { MasDObjetivos } from "./components/MasDObjetivos.jsx";
-import { RolMasJugado } from "./components/RolMasJugado.jsx";
-import { MuertesRol } from "./components/MuertesRol.jsx";
-import { CMasVictorias } from "./components/CMasVictorias.jsx";
-import { CMasDerrotas } from "./components/CMasDerrrotas.jsx";
+import { Nosotros } from "./components/Nosotros.jsx";
+import { Productos } from "./components/Productos.jsx";
+import { Sucursales } from "./components/Sucursales.jsx";
+import { Promociones } from "./components/Promociones.jsx";
+
+import { Contacto } from "./components/Contacto.jsx";
 
 function App() {
   return (
@@ -19,18 +17,13 @@ function App() {
       <br />
       <br />
       <div className="Containerimg">
-        <img className="VIVSBLUE2" src="./img/VIVSBLUE2.gif" alt="" />
-        <img className="VIVSBLUE" src="./img/VIVSBLUE2.gif" alt="" />
-        <img className="LOLLOGO" src="./img/LOLLOGO.png" alt="" />
+        <img className="VIVSBLUE" src="./img/panaderia.png" alt="" />
       </div>
-      <CMasJugado />
-      <CMasKills />
-      <Flash />
-      <MasDObjetivos />
-      <MuertesRol />
-      <RolMasJugado />
-      <CMasVictorias />
-      <CMasDerrotas />
+      <Promociones />
+      <Productos />
+      <Nosotros />
+      <Sucursales />
+      <Contacto />
       <br />
       <Footer />
     </>
